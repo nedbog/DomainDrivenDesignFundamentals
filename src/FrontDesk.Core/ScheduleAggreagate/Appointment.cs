@@ -1,4 +1,6 @@
-﻿namespace FrontDesk.Core.ScheduleAggreagate;
+﻿using SharedKernel;
+
+namespace FrontDesk.Core.ScheduleAggreagate;
 
 public class Appointment : BaseEntity<Guid>
 {
