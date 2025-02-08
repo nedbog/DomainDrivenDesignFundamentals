@@ -36,6 +36,6 @@ public class Patient : BaseEntity<int>
 
     public override string ToString()
     {
-        return Name.ToString();
+        return Name;
     }
 }

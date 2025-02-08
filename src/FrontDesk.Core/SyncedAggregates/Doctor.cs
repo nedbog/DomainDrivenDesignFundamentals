@@ -18,6 +18,6 @@ public class Doctor : BaseEntity<int>, IAggregateRoot
 
     public override string ToString()
     {
-        return Name.ToString();
+        return Name;
     }
 }

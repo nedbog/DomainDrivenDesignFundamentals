@@ -3,7 +3,7 @@ using Ardalis.GuardClauses;
 using FrontDesk.Core.Events;
 using FrontDesk.Core.SyncedAggregates;
 
-namespace FrontDesk.Core.ScheduleAggreagate;
+namespace FrontDesk.Core.ScheduleAggregate;
 
 public class Appointment : BaseEntity<Guid>
 {

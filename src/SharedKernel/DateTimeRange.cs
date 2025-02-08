@@ -1,4 +1,6 @@
-﻿namespace SharedKernel;
+﻿using Ardalis.GuardClauses;
+
+namespace SharedKernel;
 
 public class DateTimeRange : ValueObject
 {
@@ -7,6 +9,7 @@ public class DateTimeRange : ValueObject
 
     public DateTimeRange(DateTime start, DateTime end)
     {
+        Guard.Against.OutOfRange(start, nameof(start), start, end);
         Start = start;
         End = end;
     }

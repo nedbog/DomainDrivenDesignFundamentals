@@ -37,6 +37,6 @@ public class Client : BaseEntity<int>, IAggregateRoot
 
     public override string ToString()
     {
-        return FullName.ToString();
+        return FullName;
     }
 }

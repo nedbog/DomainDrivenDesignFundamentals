@@ -1,4 +1,4 @@
-﻿using FrontDesk.Core.ScheduleAggreagate;
+﻿using FrontDesk.Core.ScheduleAggregate;
 using SharedKernel;
 
 namespace FrontDesk.Core.Events;

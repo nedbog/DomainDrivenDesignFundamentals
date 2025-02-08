@@ -15,7 +15,7 @@ public class Room : BaseEntity<int>, IAggregateRoot
 
     public override string ToString()
     {
-        return Name.ToString();
+        return Name;
     }
 
     public Room UpdateName(string name)
