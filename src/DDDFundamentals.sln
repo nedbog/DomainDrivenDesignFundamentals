@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontDesk.Core", "FrontDesk
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedKernel", "SharedKernel\SharedKernel.csproj", "{643B7C5E-0F06-4A17-8D04-5A6A6D16E080}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontDesk.Infrastructure", "FrontDesk.Infrastructure\FrontDesk.Infrastructure.csproj", "{CE907AC3-8FAF-4B3F-BDD0-1465A4887830}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{643B7C5E-0F06-4A17-8D04-5A6A6D16E080}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{643B7C5E-0F06-4A17-8D04-5A6A6D16E080}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{643B7C5E-0F06-4A17-8D04-5A6A6D16E080}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE907AC3-8FAF-4B3F-BDD0-1465A4887830}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE907AC3-8FAF-4B3F-BDD0-1465A4887830}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE907AC3-8FAF-4B3F-BDD0-1465A4887830}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE907AC3-8FAF-4B3F-BDD0-1465A4887830}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
