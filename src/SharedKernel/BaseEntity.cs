@@ -1,7 +1,7 @@
 ﻿namespace SharedKernel;
 
-public class BaseEntity<TId>
+public abstract class BaseEntity<TId>
 {
     public TId Id { get; set; }
-    public List<BaseDomainEvent> Event = new();
+    public List<BaseDomainEvent> Events = new();
 }
