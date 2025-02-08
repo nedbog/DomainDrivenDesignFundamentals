@@ -113,4 +113,9 @@ public class Appointment : BaseEntity<Guid>
         var appointmentConfirmedEvent = new AppointmentConfirmedEvent(this);
         Events.Add(appointmentConfirmedEvent);
     }
+
+    public void Schedule()
+    {
+        
+    }
 }
